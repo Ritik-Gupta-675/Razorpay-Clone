@@ -7,12 +7,64 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <nav>
-        <ul class="flex bg-deepBlue p-4 gap-5">
-            <li class="text-white">Home</li>
-            <li class="text-white">Projects</li>
-            <li class="text-white">Contact Us</li>
-        </ul>
+    <nav class="bg-deepBlue">
+            <div class="relative w-[1080px] mx-auto flex items-center justify-between">
+
+                <!-- Logo -->
+               <a  href="/" class="cursor-pointer py-7 pr-7" >
+                <img 
+                    src="Images/Logo.png" alt="Logo"
+                    width="125px"
+                    height="30px"/>
+               </a>
+
+               <!-- Mid elements -->
+                <ul class="flex space-x-6">
+                    <li class=" text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duraion-200 relative group">
+                        <a href="#">Payments</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duraion-200">
+                        </div>
+                    </li>
+                    <li class=" text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duraion-200 relative group">
+                        <a href="#">Banking</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duraion-200">
+                        </div>
+                    </li>
+                    <li class=" text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duraion-200 relative group">
+                        <a href="#">Corporate Cards</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duraion-200">
+                        </div>
+                    </li>
+                    <li class=" text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duraion-200 relative group">
+                        <a href="#">Payroll</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duraion-200">
+                        </div>
+                    </li>
+                    <li class="cursor-pointer text-white font-mullish py-7 hover:text-lightBlue transition-all duraion-200 relative group">
+                        <a href="#">Resources</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duraion-200">
+                        </div>
+                    </li>
+                    <li class="cursor-pointer text-white font-mullish py-7 hover:text-lightBlue transition-all duraion-200 relative group">
+                        <a href="#">Support</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duraion-200">
+                        </div>
+                    </li>
+                    <li class="cursor-pointer text-white font-mullish py-7 hover:text-lightBlue transition-all duraion-200 relative group">
+                        <a href="#">Pricing</a>
+                        <div class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duraion-200">
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="flex ml-10 space-x-4">
+                    <img  src="Images/Flag.png"  class="my-3 w-10 h-8" alt="Profile"
+                        />
+
+                    <button class="py-3 px-5 h-12 font-mullish text-small font-bold text-white  border-blue-900 border rounded-sm">Log in</button>
+                    <button class="py-3 px-4 h-12 font-mullish text-small font-bold bg-white text-lightBlue300  border rounded-sm hover:text-lightBlue500">Sign Up</button>    
+                </div>
+            </div>
     </nav>
 </body>
 </html>
